@@ -1,0 +1,10 @@
+let clothes = new Set()
+clothes.add("hat")
+clothes.add("trousers")
+clothes.add("shirt")
+clothes.add("boots")
+clothes.add("gloves")
+
+clothes.delete("shirt")
+console.log(clothes.has("shirt"))
+console.log(clothes.size)
